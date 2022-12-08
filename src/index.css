@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+body{
+  font-family: 'Open Sans', sans-serif;
+  background: #0c0c15;
+}
+.container{
+  text-align: center;
+  padding-top: 250px;
+}
+.container h1{
+  color: rgb(207, 207, 207);
+  padding-bottom: 30px;
+  font-size: 50px;
+  
+}
+.container input{
+  padding: 10px;
+  border-radius: 30px;
+  outline: none;
+  text-align: center;
+  width: 700px;
+  font-size: 20px;
+  background: rgb(207, 207, 207);
+}
+
+.context .content{
+  margin-left: 555px;
+}
+.MYbtn{
+  background: rgb(207, 207, 207);
+  width: fit-content;
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  margin-left: 700px;
+  margin-top: 13px;
+  transition: 0.5s;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.MYbtn:hover{
+  background: #0c0c15;
+  color: white;
+}
+.btn{
+  background: #0c0c15;
+  color: white;
+  width: fit-content;
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  margin-top: 13px;
+  transition: 0.5s;
+  border-radius: 30px;
+  cursor: pointer;
+}
